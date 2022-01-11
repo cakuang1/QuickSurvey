@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f7e7e7;
+
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: darkseagreen;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+
+.creates {
+    text-align: center;
+    max-width: 140px;
+    height:70px;
+
+    padding: 0;
+    border-color: darkseagreen;
+    color: #000;
+    font-size: 12px; 
+}
+.nav-menu li {
+    list-style: none;
+}
+.nav-menu a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+
+}
+.nav-menu li a:hover:not(.active){
+    background-color: lightseagreen;
+}
+.nav-ment li a.active {
+    background-color: darkseagreen;
+}
+
+
+
+.namecontainer {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-top: 7px solid darkseagreen;
+    height: 125px; 
+
+}
+
+.namecontainer:active {
+    background-color: red;
+}
+
+.namecontainer input {
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: 2px solid darkseagreen;
+    border-bottom: 2px solid darkseagreen;
+    font-size: 35px;
+    outline: none;
+    padding-top: 20px;
+    display: inline-block
+}
+.adds {
+    border: none;
+}
+
+h1 { 
+    text-indent: 10px; 
+    color:  darkseagreen;
+}
+
+form {
+    padding-left: 10px;
+}
+.fas {
+    color: gray;
+    font-size: 30px;
+
+}
+.fas:hover {
+
+    color: darkseagreen;
+}
+
+#home {
+    background-color: rgb(176, 226, 176);
+}
+
+#logo {
+    color: white;
+}
+
+#listcontainer {
+    padding-top: 100px;
+    width: fit-content;
+    margin: auto;
+
+}
+
+ol {
+    padding-top: 25px;
+}
+
+ol li {
+    font-size: 50px;
+    color: white;
+
+}
+
+.formdiv {
+    background-color: white;
+    width: 50%;margin: auto;margin-bottom: 1em; margin-top: 1em;border-top: 7px solid darkseagreen;
+    text-align: center;
+    height: 150px;
+}
+.formdiv form {
+    height: auto;
+}
+
+.formdiv {
+
+}
+
+.formdiv form input{
+    height: 30px;
+    border: none;
+    width: 80%;
+    
+    
+}
+
+.upperdiv {
+    background-color: darkseagreen;
+
+    margin: auto;
+    margin-top: 80px;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+.wrapper {
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    
+
+}
+.wrapper .holders {
+    background-color:whitesmoke;
+    margin:10px;
+    height: 50px;
+}
